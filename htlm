@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SleazCore Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SleazCore</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search our store...">
+            </div>
+            <div class="buttons">
+                <button>Support</button>
+                <button>Account</button>
+                <button class="cart">🛒 0</button>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Bienvenue sur SleazCore</h1>
+        <p>Explore my new products and do not hesitate to contact me if you need help!</p>
+        <a href="#" class="btn">Start shopping →</a>
+    </section>
+    
+    <section class="products">
+        <h2>Featured collection</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="keyser-menu.png" alt="Keyser Menu">
+                <p>Keyser Menu</p>
+            </div>
+            <div class="product">
+                <img src="keyser-spoofer.png" alt="Keyser Spoofer">
+                <p>Keyser Spoofer</p>
+            </div>
+            <div class="product">
+                <img src="rockstar-account.png" alt="Compte Rockstar">
+                <p>Compte Rockstar - 0.50€</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
